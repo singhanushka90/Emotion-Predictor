@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">🧠 Emotion Detector</h1>
-<h3 align="center">AI-Powered Emotion & Sentiment Analysis System</h3>
+<h3 align="center"> Emotion & Sentiment Analysis System</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python" />
