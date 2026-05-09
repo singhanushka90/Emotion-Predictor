@@ -10,7 +10,7 @@ st.set_page_config(page_title="Emotion Detector", layout="centered")
 
 # Title
 
-st.title("💬 Emotion Detection App")
+st.title("💬 Emotion and Sentiment Detection App")
 st.markdown("""
 <style>
     .stTextArea textarea {
