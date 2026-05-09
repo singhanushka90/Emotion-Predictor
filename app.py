@@ -6,7 +6,7 @@ model = pickle.load(open("emotion_model.pkl", "rb"))
 tfidf = pickle.load(open("tfidf.pkl", "rb"))
 
 # Page config
-st.set_page_config(page_title="Emotion Detector", layout="centered")
+st.set_page_config(page_title="Emotion Detector System", layout="centered")
 
 # Title
 
