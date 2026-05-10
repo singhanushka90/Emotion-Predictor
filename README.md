@@ -67,3 +67,12 @@ Emotion Prediction  →  Pickle Serialization
 | Weighted Avg Recall | 0.89 |
 
 ### Confusion Matrix (Test Set — 2000 samples)
+
+Predicted →   Anger  Fear   Joy   Love  Sadness  Surprise
+Anger     →  [ 233     4    17      1     20        0 ]
+Fear      →  [   9   190     9      1     15        0 ]
+Joy       →  [   1     0   673     17      3        1 ]
+Love      →  [   2     0    45    106      6        0 ]
+Sadness   →  [  12     2    15      1    551        0 ]
+Surprise  →  [   1    14    14      0      3       34 ]
+Code
