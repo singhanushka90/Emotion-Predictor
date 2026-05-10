@@ -53,3 +53,17 @@ Emotion Prediction  →  Pickle Serialization
 ---
 
 ## ⚙️ ML Pipeline
+
+---
+
+## 📊 Model Performance
+
+| Metric | Score |
+|--------|-------|
+| **Accuracy** | **89%** |
+| Macro Avg F1 | 0.84 |
+| Weighted Avg F1 | 0.89 |
+| Weighted Avg Precision | 0.89 |
+| Weighted Avg Recall | 0.89 |
+
+### Confusion Matrix (Test Set — 2000 samples)
