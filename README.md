@@ -37,6 +37,19 @@ Built with a clean ML pipeline using **TF-IDF vectorization** and **Logistic Reg
 | 😢 | **Sadness** | `4` |
 | 😲 | **Surprise** | `5` |
 
+
+Raw Text Input
+↓
+Lowercasing + Regex Cleaning  (remove special chars, numbers)
+↓
+TF-IDF Vectorization          (10,000 features, unigrams + bigrams)
+↓
+stop_words='english'          (noise reduction)
+min_df=2, max_df=0.9          (filter rare & too-common words)
+↓
+Logistic Regression           (max_iter=2000)
+↓
+Emotion Prediction  →  Pickle Serialization
 ---
 
 ## ⚙️ ML Pipeline
