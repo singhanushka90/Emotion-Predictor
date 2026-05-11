@@ -71,7 +71,7 @@ h1 {
 # =========================================================
 # Title Section
 # =========================================================
-st.title("💬 Emotion & Sentiment Detection AI")
+st.title("💬 Emotion & Sentiment Detection System")
 
 st.markdown("""
 <div style='text-align:center; color:gray; font-size:18px;'>
