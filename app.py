@@ -13,7 +13,7 @@ tfidf = pickle.load(open("tfidf.pkl", "rb"))
 # Page Configuration
 # =========================================================
 st.set_page_config(
-    page_title="Emotion Detector System",
+    page_title="Emotion Detector AI",
     page_icon="💬",
     layout="centered"
 )
