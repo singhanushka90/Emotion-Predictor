@@ -1,78 +1,202 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,50:7c3aed,100:06b6d4&height=220&section=header&text=Emotion%20Detector%20AI&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Text-Based%20Emotion%20%26%20Sentiment%20Intelligence%20System&descAlignY=58&descSize=16&animation=fadeIn" />
-</p>
+<div align="center">😊 Emotion Prediction AI
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-ML%20Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Bigrams-06b6d4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Accuracy-89%25-22c55e?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Streamlit-Deployable-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</p>
+AI-Powered Emotion Detection using Machine Learning
 
-<br/>
+<p align="center"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/><img src="https://img.shields.io/badge/Machine%20Learning-Emotion%20Detection-green?style=for-the-badge"/><img src="https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit"/><img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge"/></p>---
 
----
+🧠 Predict Human Emotions from Text using Artificial Intelligence
 
-## 🧠 What Is This?
+</div>---
 
-**Emotion Detector** is an NLP-powered Machine Learning system that reads a piece of text and identifies the human emotion behind it — whether someone is joyful, angry, fearful, in love, sad, or surprised.
+📌 Overview
 
-Built with a clean ML pipeline using **TF-IDF vectorization** and **Logistic Regression**, this project achieves **~89% accuracy** on a multi-class emotion classification task across **6 emotional categories**.
+Emotion Prediction AI is a Machine Learning application that analyzes user text and predicts the underlying emotion.
 
-> 💡 **Real-World Use Cases:**
-> Mental Health Monitoring • AI-Powered Chatbots • Social Media Sentiment Analysis • Customer Feedback Systems • Emotion-Aware AI Assistants
+The system uses Natural Language Processing (NLP) and Machine Learning techniques to classify emotions such as:
 
----
+- 😊 Happy
+- 😢 Sad
+- 😠 Angry
+- 😨 Fear
+- 😍 Love
+- 😲 Surprise
 
-## 🎯 Emotions Detected
-
-| Emoji | Emotion | Encoded Label |
-|-------|---------|--------------|
-| 😡 | **Anger** | `0` |
-| 😨 | **Fear** | `1` |
-| 😊 | **Joy** | `2` |
-| ❤️ | **Love** | `3` |
-| 😢 | **Sadness** | `4` |
-| 😲 | **Surprise** | `5` |
-
-
-Raw Text Input
-↓
-Lowercasing + Regex Cleaning  (remove special chars, numbers)
-↓
-TF-IDF Vectorization          (10,000 features, unigrams + bigrams)
-↓
-stop_words='english'          (noise reduction)
-min_df=2, max_df=0.9          (filter rare & too-common words)
-↓
-Logistic Regression           (max_iter=2000)
-↓
-Emotion Prediction  →  Pickle Serialization
----
-
-## ⚙️ ML Pipeline
+The project demonstrates how AI can understand human emotions from textual input.
 
 ---
 
-## 📊 Model Performance
+🚀 Features
 
-| Metric | Score |
-|--------|-------|
-| **Accuracy** | **89%** |
-| Macro Avg F1 | 0.84 |
-| Weighted Avg F1 | 0.89 |
-| Weighted Avg Precision | 0.89 |
-| Weighted Avg Recall | 0.89 |
+<div align="center">Feature| Description
+📝 Text Input| User enters text
+🧠 Emotion Detection| Predicts emotion automatically
+⚡ Real-Time Prediction| Instant results
+📊 Confidence Scores| Displays prediction probability
+🎨 Interactive UI| Built with Streamlit
+🤖 Machine Learning Model| Trained NLP classifier
 
-### Confusion Matrix (Test Set — 2000 samples)
+</div>---
 
-Predicted →   Anger  Fear   Joy   Love  Sadness  Surprise
-Anger     →  [ 233     4    17      1     20        0 ]
-Fear      →  [   9   190     9      1     15        0 ]
-Joy       →  [   1     0   673     17      3        1 ]
-Love      →  [   2     0    45    106      6        0 ]
-Sadness   →  [  12     2    15      1    551        0 ]
-Surprise  →  [   1    14    14      0      3       34 ]
-Code
+🏗️ Project Workflow
+
+User Text
+     ↓
+Text Preprocessing
+     ↓
+Tokenization
+     ↓
+Feature Extraction
+     ↓
+Machine Learning Model
+     ↓
+Emotion Prediction
+     ↓
+Result Display
+
+---
+
+🧠 Machine Learning Pipeline
+
+Raw Text
+   ↓
+Cleaning
+   ↓
+Lowercasing
+   ↓
+Stopword Removal
+   ↓
+Vectorization (TF-IDF)
+   ↓
+Model Training
+   ↓
+Prediction
+
+---
+
+🛠️ Tech Stack
+
+<div align="center">Technology| Usage
+🐍 Python| Programming
+🤖 Scikit-Learn| Machine Learning
+📊 Pandas| Data Processing
+🔢 NumPy| Numerical Computing
+🎨 Streamlit| Frontend
+📈 Matplotlib| Visualization
+NLP| Text Processing
+
+</div>---
+
+📂 Project Structure
+
+Emotion-Prediction-AI/
+│
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+│
+├── dataset/
+│   └── emotions.csv
+│
+└── assets/
+    └── screenshot.png
+
+---
+
+⚙️ Installation
+
+Clone Repository
+
+git clone https://github.com/your-username/Emotion-Prediction-AI.git
+
+---
+
+Move to Project Folder
+
+cd Emotion-Prediction-AI
+
+---
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+---
+
+Run Application
+
+streamlit run app.py
+
+---
+
+😊 Supported Emotions
+
+Happy
+Sad
+Angry
+Fear
+Love
+Surprise
+Neutral
+
+---
+
+📸 Application Preview
+
+![Emotion Prediction](assets/screenshot.png)
+
+---
+
+📈 Future Improvements
+
+- Deep Learning Models
+- LSTM-Based Emotion Detection
+- BERT Emotion Classification
+- Voice Emotion Recognition
+- Facial Emotion Detection
+- Multilingual Emotion Detection
+- Emotion Analytics Dashboard
+
+---
+
+🧪 Requirements
+
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+nltk
+
+---
+
+🎯 Learning Outcomes
+
+Through this project:
+
+✅ Learned NLP fundamentals
+✅ Worked with text preprocessing
+✅ Built Machine Learning pipelines
+✅ Implemented TF-IDF vectorization
+✅ Created a complete Streamlit application
+✅ Understood emotion classification
+
+---
+
+👩‍💻 Author
+
+<div align="center">Anushka Singh
+
+AI & Data Science Student
+
+Passionate about Machine Learning, Deep Learning, and AI-powered applications.
+
+</div>---
+
+<div align="center">💡 Turning Human Emotions into Machine Intelligence
+
+⭐ If you like this project, consider giving it a star!
+
+</div>
