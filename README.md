@@ -97,10 +97,7 @@ Emotion-Prediction-AI/
 ├── README.md
 │
 ├── dataset/
-│   └── emotions.csv
-│
-└── assets/
-    └── screenshot.png
+│   └── emotion.csv
 
 ---
 
