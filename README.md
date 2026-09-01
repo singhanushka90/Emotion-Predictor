@@ -196,4 +196,4 @@ Passionate about Machine Learning, Deep Learning, and AI-powered applications.
 
 ⭐ If you like this project, consider giving it a star!
 
-</div>>
+</div>
