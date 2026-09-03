@@ -139,11 +139,6 @@ Neutral
 
 ---
 
-📸 Application Preview
-
-![Emotion Prediction](assets/screenshot.png)
-
----
 
 📈 Future Improvements
 
